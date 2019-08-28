@@ -1,0 +1,50 @@
+<!doctype html/>
+<html>
+<head>
+    <style type ="text/css">
+        /*주석부분 태그선택자*/
+        div > div{border:1px solid grey;} 
+         /* 자식 밑에만 css 주기 */
+
+        .bggreen{background:cyan;}
+        div.bggreen{color:red;}
+        /* 바디 안에 섹션을 나누기 위해 div를 쓰고 거기 밑에 */
+        /*div 의 유일한 자식 p level*/
+        /*아이디 선택자 #d아이디*/
+        #content{
+            background:yellow; }
+    
+    </style> 
+    </head>
+
+    <body>
+        <p class="bggreen">
+            
+
+        p태그 지역  </p>
+    
+        
+        <div id ="header" class ="bggreen">
+            div level1
+            <div>
+                div level2
+        <p>
+                p level
+                </p>              
+                
+                <div>
+                div level3
+        </div>
+            
+            </div>
+  
+    </div>
+        <div id ="content" class ="bggreen">
+           컨텐트
+    </div>
+    
+        <div id ="footer" class ="bggreen">
+            푸터
+       </div>
+        </body>
+</html>
